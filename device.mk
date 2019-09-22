@@ -83,54 +83,9 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc
 
-# Charger res
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_0.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_0.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_1.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_1.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_10.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_10.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_2.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_2.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_20.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_20.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_2_10.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_2_10.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_30.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_30.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_40.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_40.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_50.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_50.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_60.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_60.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_70.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_70.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_80.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_80.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_90.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_90.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_90_99.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_90_99.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Charging_battery_full.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Charging_battery_full.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_0.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_0.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_1.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_1.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_10.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_10.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_2.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_2.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_20.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_20.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_2_10.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_2_10.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_30.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_30.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_40.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_40.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_50.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_50.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_60.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_60.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_70.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_70.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_80.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_80.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_90.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_90.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_90_99.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_90_99.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_0.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_0.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_1.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_1.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_10.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_10.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_2.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_2.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_20.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_20.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_2_10.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_2_10.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_30.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_30.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_40.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_40.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_50.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_50.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_60.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_60.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_70.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_70.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_80.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_80.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_90.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_90.png \
-    $(LOCAL_PATH)/charger/res/images/charger/Fast-charging_Charging_battery_p_90_99.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/Fast-charging_Charging_battery_90_99.png \
-    $(LOCAL_PATH)/charger/res/images/charger/OverTempBattery.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/OverTempBattery.png \
-    $(LOCAL_PATH)/charger/res/images/charger/battery_fail.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/battery_fail.png \
-    $(LOCAL_PATH)/charger/res/images/charger/battery_scale.png:$(TARGET_COPY_OUT_ROOT)/res/images/charger/battery_scale.png
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
 
 # Display
 PRODUCT_PACKAGES += \
