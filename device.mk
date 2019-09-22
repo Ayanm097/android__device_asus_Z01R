@@ -83,6 +83,10 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
