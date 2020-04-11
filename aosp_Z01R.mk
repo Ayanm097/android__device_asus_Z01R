@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/asus/Z01R/device.mk)
 
 # Inherit some common AEX stuff.
-TARGET_BOOT_ANIMATION_RES := 2246
+TARGET_BOOT_ANIMATION_RES := 1080
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
@@ -48,10 +48,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_USE_JELLY := false
 
 # Set this flag in build script
-ifeq ($(CURRENT_BUILD_TYPE), gapps)
+#ifeq ($(CURRENT_BUILD_TYPE), gapps)
 # Use Gapps
 TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
-endif
+#endif
