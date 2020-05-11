@@ -22,18 +22,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from Z01R device
 $(call inherit-product, device/asus/Z01R/device.mk)
 
+
 # Inherit some common AEX stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := Zenfone 5Z
-PRODUCT_NAME := aosp_Z01R
+PRODUCT_NAME := ancient_Z01R
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
