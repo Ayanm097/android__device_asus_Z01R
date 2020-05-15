@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/asus/Z01R/device.mk)
 
 
-# Inherit some common AEX stuff.
+# Inherit some common Ancient stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true
