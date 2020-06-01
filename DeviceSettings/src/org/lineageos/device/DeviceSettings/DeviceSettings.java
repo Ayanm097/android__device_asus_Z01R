@@ -66,7 +66,7 @@ public class DeviceSettings extends PreferenceFragment
         if (mVibratorNotifStrength != null)
             mVibratorNotifStrength.setEnabled(VibratorNotifStrengthPreference.isSupported());
     }
-	
+
 	@Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mFpsInfo) {
