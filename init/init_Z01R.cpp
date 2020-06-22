@@ -60,4 +60,7 @@ void vendor_load_properties()
         property_override("ro.product.device", "ASUS_Z01R_1");
 	property_override("ro.product.model", "Zenfone 5Z");
 	property_override("ro.product.brand", "Asus");
+
+         // Expose AUX
+    property_override("vendor.camera.aux.packagelist", "org.codeaurora.snapcam,com.asus.camera,com.google.android.GoogleCamera,com.asus.snapcam");
 }
