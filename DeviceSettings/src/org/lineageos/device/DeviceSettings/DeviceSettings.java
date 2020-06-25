@@ -67,19 +67,6 @@ public class DeviceSettings extends PreferenceFragment
             mVibratorNotifStrength.setEnabled(VibratorNotifStrengthPreference.isSupported());
     }
 
-	@Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mFpsInfo) {
-            boolean enabled = (Boolean) newValue;
-            Intent fpsinfo = new Intent(this.getContext(), org.lineageos.device.DeviceSettings.FPSInfoService.class);
-            if (enabled) {
-                this.getContext().startService(fpsinfo);
-            } else {
-                this.getContext().stopService(fpsinfo);
-            }
-        }
-        return true;
-    }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
