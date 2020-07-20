@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "DerpFest-Devices/android_kernel_asus_sdm845",
+    "repository": "ayanm09/android_kernel_asus_sdm845",
     "target_path": "kernel/asus/sdm845",
     "revision": "ten"
   },
